@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Recommended Products - Shraddha Gurav</title>
+  
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/css/main.css" rel="stylesheet">
+  
+  <style>
+    .product-card {
+      border: none;
+      transition: transform 0.3s;
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 5px 25px rgba(0,0,0,0.1);
+    }
+    .product-card:hover { transform: translateY(-10px); }
+    .btn-amazon {
+      background: #ff9900;
+      color: #000;
+      font-weight: 600;
+      border-radius: 5px;
+    }
+    .btn-amazon:hover { background: #e68a00; }
+  </style>
+</head>
+
+<body class="starter-page-page">
+
+  <header id="header" class="header d-flex flex-column justify-content-center">
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="index.html#hero"><i class="bi bi-house navicon"></i><span>Home</span></a></li>
+        <li><a href="products.html" class="active"><i class="bi bi-cart navicon"></i><span>Products</span></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main">
+    <div class="page-title" data-aos="fade">
+      <div class="container">
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">Products</li>
+          </ol>
+        </nav>
+        <h1>My Recommendations</h1>
+        <p>A curated list of gear and tools I use for software development.</p>
+      </div>
+    </div>
+
+    <section class="section">
+      <div class="container">
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="product-card text-center">
+              <img src="https://m.media-amazon.com/images/I/71TPda7cwUL._AC_SL1500_.jpg" class="img-fluid mb-3" alt="Mechanical Keyboard">
+              <h4>Mechanical Keyboard</h4>
+              <p class="text-muted small">Great for long coding sessions.</p>
+              <a href="YOUR_AFFILIATE_URL_HERE" target="_blank" class="btn btn-amazon w-100">View on Amazon</a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="product-card text-center">
+              <img src="https://m.media-amazon.com/images/I/61vG69xe1hL._AC_SL1500_.jpg" class="img-fluid mb-3" alt="Coding Book">
+              <h4>Clean Code</h4>
+              <p class="text-muted small">A must-read for every developer.</p>
+              <a href="YOUR_AFFILIATE_URL_HERE" target="_blank" class="btn btn-amazon w-100">View on Amazon</a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="product-card text-center">
+              <img src="https://m.media-amazon.com/images/I/71Y8T-S2T-L._AC_SL1500_.jpg" class="img-fluid mb-3" alt="Laptop Stand">
+              <h4>Ergonomic Laptop Stand</h4>
+              <p class="text-muted small">Better posture for better focus.</p>
+              <a href="YOUR_AFFILIATE_URL_HERE" target="_blank" class="btn btn-amazon w-100">View on Amazon</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/js/main.js"></script>
+
+</body>
+</html>
